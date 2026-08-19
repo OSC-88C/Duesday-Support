@@ -26,13 +26,9 @@ h2 { margin-top: 36px; font-size: 21px; letter-spacing: 0; }
 p { color: var(--muted); }
 .intro > p:not(.eyebrow) { max-width: 650px; font-size: 20px; }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 30px; }
-.app-store-button { display: inline-flex; align-items: center; gap: 11px; min-width: 194px; padding: 10px 18px; border: 1px solid #000; border-radius: 12px; background: #000; color: #fff; text-decoration: none; font-size: 20px; font-weight: 650; line-height: 1.05; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14); transition: transform 160ms ease, box-shadow 160ms ease; }
-.app-store-button:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0, 0, 0, 0.2); }
+.app-store-button { display: inline-block; border-radius: 13px; line-height: 0; }
 .app-store-button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
-.app-store-button small { display: block; margin-bottom: 3px; font-size: 11px; font-weight: 500; letter-spacing: 0.01em; }
-.apple-mark { position: relative; width: 25px; height: 29px; overflow: hidden; color: transparent; flex: none; }
-.apple-mark::before { content: ""; position: absolute; left: 3px; bottom: 1px; width: 20px; height: 22px; border-radius: 45% 45% 50% 50% / 55% 55% 45% 45%; background: #fff; }
-.apple-mark::after { content: ""; position: absolute; left: 14px; top: 0; width: 8px; height: 6px; border-radius: 8px 1px 8px 1px; background: #fff; transform: rotate(-28deg); }
+.app-store-button img { display: block; width: 194px; max-width: 100%; height: auto; }
 .device-note { color: var(--muted); font-size: 14px; }
 .links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding-bottom: 76px; }
 .links a { display: grid; gap: 5px; padding: 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); text-decoration: none; }
@@ -47,7 +43,4 @@ footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--m
   nav { gap: 12px; padding-top: 8px; }
   .intro { padding-top: 54px; }
   .links { grid-template-columns: 1fr; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .app-store-button { transition: none; }
 }
