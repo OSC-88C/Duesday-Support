@@ -13,7 +13,7 @@
     <nav aria-label="Support navigation"><a href="support.html">Support</a><a aria-current="page" href="privacy.html">Privacy</a></nav>
   </header>
   <main class="document">
-    <p class="eyebrow">Effective 7 September 2026</p>
+    <p class="eyebrow">Effective 15 October 2026</p>
     <h1>Privacy Policy</h1>
     <p>Duesday keeps the financial details you enter manually on your iPhone. Optional Connected Spending, currently limited to private testing, uses a protected backend to deliver transactions you choose to connect.</p>
     <h2>Data stored on your device</h2>
@@ -30,10 +30,15 @@
     <p>If you enable Duesday update alerts, the app sends an Apple Push Notification service token, a separate random installation identifier, the installed app version and build number, and your notification preference to Duesday's backend. This information is used only to deliver and manage release alerts. It is not used for advertising or tracking and is not combined with the financial records stored on your phone.</p>
     <h2>Purchases</h2>
     <p>Apple processes Duesday Pro purchases. Duesday receives the information needed to determine whether the subscription entitlement is active. We do not receive your complete payment-card details.</p>
-    <h2>Analytics and advertising</h2>
-    <p>Duesday does not use third-party advertising SDKs. Upload of usage telemetry and crowd intelligence is disabled for the initial release.</p>
+    <h2>Optional usage sharing</h2>
+    <p>If you choose “Share usage data”, Duesday uses PostHog's EU Cloud service to understand which parts of the app are useful and improve its layout and workflows. You can choose “Not now” and continue using the app normally.</p>
+    <p>We share actions such as opening the app, using subscriptions, budgets, spending or goals, and opening or completing the Duesday Pro purchase/restore flow. Events include their time, app version/build, a separate random analytics identifier, and limited screen/outcome information. PostHog groups events from the same identifier into a pseudonymous usage profile.</p>
+    <p>Usage sharing does not send your financial amounts, balances, transactions, merchant or subscription names, notes, photos, email address or Duesday account ID. It does not record your screen or use your data for advertising tracking. We disable geographic enrichment of usage events. As with other internet services, the receiving service can see the source IP of a network request.</p>
+    <p>You can change your choice in Settings → Privacy &amp; data → Usage sharing. Turning sharing off stops new usage events and clears unsent events from that device; it does not automatically delete events already received. To request their deletion, use “Request usage data deletion” in that screen or contact hello@dakotatechsg.com with the analytics references shown there. These references let us locate the usage profile without your financial records. Previously used references remain available on the device for deletion requests. Usage-data deletion is separate from deleting a Duesday account.</p>
+    <h2>Advertising and crowd intelligence</h2>
+    <p>Duesday does not use third-party advertising SDKs. Crowd-intelligence uploads remain disabled. Optional usage sharing is not used for advertising tracking.</p>
     <h2>Service providers</h2>
-    <p>Apple provides distribution, purchases, local notifications and push delivery. Supabase provides optional authentication, referral, push-token and Connected Spending infrastructure. The primary Duesday database is hosted in Japan (Tokyo), not Singapore. Vercel hosts the secure connection webpage using its hosting network. Finverse provides bank connectivity for the private evaluation and processes information under its own consent, terms and privacy commitments. These providers may process information outside your country; their own locations and subprocessors are separate from our database region.</p>
+    <p>Apple provides distribution, purchases, local notifications and push delivery. Supabase provides optional authentication, referral, push-token and Connected Spending infrastructure. The primary Duesday database is hosted in Japan (Tokyo), not Singapore. Vercel hosts the secure connection webpage using its hosting network. PostHog provides optional product-usage analytics through its EU Cloud service. Finverse provides bank connectivity for the private evaluation and processes information under its own consent, terms and privacy commitments. These providers may process information outside your country; their own locations and subprocessors are separate from our database region.</p>
     <p>We use this information to operate Duesday, not to sell it or target advertising. Service providers may process limited technical request and security logs to operate their services. Bank credentials and raw bank-response payloads are not intentionally included in Duesday application logs.</p>
     <h2>Retention and deletion</h2>
     <p>Local information remains until you delete it in Duesday or remove the app. Turning off Duesday update alerts disables the stored push registration. Invalid Apple push tokens are disabled automatically.</p>
